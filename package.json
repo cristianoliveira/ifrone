@@ -1,0 +1,20 @@
+{
+  "name": "iphrame",
+  "version": "1.0.0",
+  "description": "A wrapper around iframe and host communication. An iphone for iframe",
+  "main": "index.js",
+  "author": "Cristian Oliveira",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "prettier": "^2.1.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {}
+}
