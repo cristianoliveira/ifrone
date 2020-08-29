@@ -15,15 +15,15 @@
         host: '*'
       })
 
-      iph.listener.on('myIframeEvent', (event) => {
+      iph.on('myIframeEvent', (event) => {
         console.log('myIframeEvent', event);
       })
 
       setInterval(() => {
-        iph.emissor.send('myHostEvent', 'fooo')
+        iph.send('myHostEvent', 'fooo')
       }, 1000)
 
-      iph.listener.ack('myHostEvent', (event) => {
+      iph.ack('myHostEvent', (event) => {
         console.log('on ack myHostEvent', event);
       })
 
