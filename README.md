@@ -1,2 +1,2 @@
 # iphrame
-A wrapper around iframe and host communication. An iphone for iframe 
+A wrapper around page host and iframe communication. An iphone for iframes
