@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Example</title>
+  </head>
+  <body>
+    <iframe id="myiframe" src="./iframe.html" frameborder="0"></iframe>
+    <script src="./iphrame.js"></script>
+    <script charset="utf-8">
+      const iframe = document.getElementById('myiframe');
+      var iph = iphrame.init({
+        to: iframe.contentWindow,
+        host: '*'
+      })
+
+      iph.listener.on('myIframeEvent', (event) => {
+        console.log('myIframeEvent', event);
+      })
+
+      setInterval(() => {
+        iph.emissor.send('myHostEvent', 'fooo')
+      }, 1000)
+
+      iph.listener.ack('myHostEvent', (event) => {
+        console.log('on ack myHostEvent', event);
+      })
+
+    </script>
+  </body>
+</html>
