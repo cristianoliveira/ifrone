@@ -1,7 +1,8 @@
 # ifrone
 
-A tiny wrapper around cross-window communication. A telefone library for windows 😅.
-This feature is normally used to communications between page host and iframes, thus, the name "ifrone" an iphone for iframes. (LOL)
+A tiny wrapper around cross-window communication.
+
+This feature is normally used to communications between page host and iframes, thus, the name "ifrone" an iphone for iframes. 😅
 
 ## Example
 
