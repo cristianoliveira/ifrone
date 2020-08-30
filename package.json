@@ -1,11 +1,11 @@
 {
   "name": "ifrone",
   "version": "1.0.0",
-  "description": "A wrapper around iframe and host communication. An iphone for iframe",
+  "description": "A tiny wrapper around cross-window communication",
   "main": "index.js",
   "author": "Cristian Oliveira",
   "license": "MIT",
-  "private": true,
+  "private": false,
   "scripts": {
     "start": "webpack-dev-server",
     "build": "webpack",
