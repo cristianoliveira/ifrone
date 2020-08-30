@@ -1,4 +1,5 @@
-# ifrone
+# ifrone. 
+[![NPM](https://img.shields.io/npm/v/ifrone.svg)](https://www.npmjs.com/package/ifrone)
 
 A tiny wrapper around cross-window communication.
 
