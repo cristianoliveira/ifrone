@@ -3,9 +3,9 @@ const path = require('path');
 module.exports = {
   entry: './lib/index.js',
   output: {
-    filename: 'iphrame.js',
+    filename: 'ifrone.js',
     path: path.resolve(__dirname, 'dist'),
-    library: 'iphrame',
+    library: 'ifrone',
     libraryTarget: 'umd',
     globalObject: 'this'
     // auxiliaryComment: 'Test Comment'

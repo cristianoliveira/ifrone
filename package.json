@@ -1,5 +1,5 @@
 {
-  "name": "iphrame",
+  "name": "ifrone",
   "version": "1.0.0",
   "description": "A wrapper around iframe and host communication. An iphone for iframe",
   "main": "index.js",

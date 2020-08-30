@@ -1,4 +1,4 @@
-# iphrame
+# ifrone
 
 A wrapper around page host and iframe communication. An iphone for iframes
 
@@ -7,10 +7,10 @@ A wrapper around page host and iframe communication. An iphone for iframes
 ```javascript
   <body>
     <iframe id="myiframe" src="./iframe.html" frameborder="0"></iframe>
-    <script src="./iphrame.js"></script>
+    <script src="./ifrone.js"></script>
     <script charset="utf-8">
       const iframe = document.getElementById('myiframe');
-      var iph = iphrame.init({
+      var iph = ifrone.init({
         from: window,
         to: iframe.contentWindow,
         host: '*'
