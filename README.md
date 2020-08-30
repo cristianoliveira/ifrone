@@ -10,7 +10,7 @@ A wrapper around page host and iframe communication. An iphone for iframes
     <script src="./ifrone.js"></script>
     <script charset="utf-8">
       const iframe = document.getElementById('myiframe');
-      var iph = ifrone.init({
+      var iph = ifrone.connect({
         from: window,
         to: iframe.contentWindow,
         host: '*'
