@@ -3,7 +3,7 @@
 
 A tiny wrapper around cross-window communication.
 
-This feature is normally used to communications between page host and iframes, thus the name "ifrone", an phone for iframes.
+This feature is normally used for communication between a page host and an iframe.
 
 ## Example
 
